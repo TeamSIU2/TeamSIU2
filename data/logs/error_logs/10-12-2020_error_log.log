@@ -1,0 +1,92 @@
+[Thu, 10 Dec 2020 11:43:34 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\Database::sql_numrows() in C:\xampp\htdocs\modules\ochu\admin\main.php:19
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/main.php] [LINE: 19]
+[Thu, 10 Dec 2020 11:43:56 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function mysql_query() in C:\xampp\htdocs\modules\ochu\admin\main.php:17
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/main.php] [LINE: 17]
+[Thu, 10 Dec 2020 11:45:02 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function printf_r() in C:\xampp\htdocs\modules\ochu\admin\main.php:18
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/main.php] [LINE: 18]
+[Thu, 10 Dec 2020 11:45:35 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\Database::sql_fetchrow() in C:\xampp\htdocs\modules\ochu\admin\main.php:25
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/main.php] [LINE: 25]
+[Thu, 10 Dec 2020 11:48:09 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function mysql_query() in C:\xampp\htdocs\modules\ochu\funcs\main.php:14
+Stack trace:
+#0 C:\xampp\htdocs\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/funcs/main.php] [LINE: 14]
+[Thu, 10 Dec 2020 11:50:31 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function filter_text_input() in C:\xampp\htdocs\modules\ochu\admin\add.php:73
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 73]
+[Thu, 10 Dec 2020 11:52:03 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function filter_text_input() in C:\xampp\htdocs\modules\ochu\admin\add.php:74
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 74]
+[Thu, 10 Dec 2020 12:52:38 +0700] [localhost] [::1] [User Error(256): Incorrect Origin specified] [FILE: /vendor/vinades/nukeviet/Core/Request.php] [LINE: 478]
+[Thu, 10 Dec 2020 11:53:35 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function filter_text_input() in C:\xampp\htdocs\modules\ochu\admin\add.php:75
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 75]
+[Thu, 10 Dec 2020 12:02:30 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\Database::dbescape() in C:\xampp\htdocs\modules\ochu\admin\add.php:101
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 101]
+[Thu, 10 Dec 2020 12:03:34 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\Database::dbescape() in C:\xampp\htdocs\modules\ochu\admin\add.php:105
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 105]
+[Thu, 10 Dec 2020 12:04:09 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\Database::dbescape() in C:\xampp\htdocs\modules\ochu\admin\add.php:100
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 100]
+[Thu, 10 Dec 2020 12:06:12 +0600] [localhost] [::1] [User Notice(1024): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'aaaaaaaaaaaa
+aaaaaaaaaaaa
+aaaaaaaaaaaa, 
+			1|2|4|4 ,
+			ddd
+		)' at line 6] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 120] [TRACE:]
+#1  LINE: 175   FILE: /admin/index.php
+#2  LINE: 106   FILE: /modules/ochu/admin/add.php
+#3  LINE: 120   FILE: /vendor/vinades/nukeviet/Core/Database.php
+
+[Thu, 10 Dec 2020 12:15:03 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined method NukeViet\Core\Database::sql_freeresult() in C:\xampp\htdocs\modules\ochu\admin\add.php:107
+Stack trace:
+#0 C:\xampp\htdocs\admin\index.php(175): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/admin/add.php] [LINE: 107]
+[Thu, 10 Dec 2020 12:15:16 +0600] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aaa' in 'field list' in C:\xampp\htdocs\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('INSERT INTO nv4...')
+#1 C:\xampp\htdocs\modules\ochu\admin\add.php(105): NukeViet\Core\Database->query('INSERT INTO nv4...')
+#2 C:\xampp\htdocs\admin\index.php(175): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]
+[Thu, 10 Dec 2020 12:23:45 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function mysql_num_rows() in C:\xampp\htdocs\modules\ochu\funcs\main.php:15
+Stack trace:
+#0 C:\xampp\htdocs\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/ochu/funcs/main.php] [LINE: 15]
+[Thu, 10 Dec 2020 12:24:15 +0600] [localhost] [::1] [Notice(8): Undefined variable: result] [FILE: /modules/ochu/funcs/main.php] [LINE: 15] [TRACE:]
+#1  LINE: 343   FILE: /index.php
+
+[Thu, 10 Dec 2020 12:24:29 +0600] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function mysql_query() in C:\xampp\htdocs\modules\ochu\theme.php:11
+Stack trace:
+#0 C:\xampp\htdocs\modules\ochu\funcs\main.php(29): nv_theme_samples_main('select * from n...', 1)
+#1 C:\xampp\htdocs\index.php(343): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown] [FILE: /modules/ochu/theme.php] [LINE: 11]
